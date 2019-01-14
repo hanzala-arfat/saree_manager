@@ -1,4 +1,46 @@
 .navbar {
-  background-color: rgba(0,0,0,0.8);
-  color: white
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 1vh 7vw;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: white
+}
+
+.navbar-links {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+  display: flex;
+  text-align: center
+}
+
+.navbar-link {
+  display: inline;
+  margin: 1px 12px;
+}
+
+@media(max-width: 655px) {
+  .navbar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1.5vh 2vw;
+  }
+
+  .brand-name, a {
+    position: absolute;
+    visibility: hidden;
+  }
+
+  .navbar-links {
+    flex-grow: 1;
+    justify-content: space-around
+  }
+  .link-name {
+    display: block;
+    font-size: 0.8rem
+  }
 }
