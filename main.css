@@ -1,5 +1,8 @@
 @import './style/navbar.css';
 
+body{
+    max-width: 100%;
+}
 .sidebar{
     height: 100vh;
     padding: 10px;
@@ -10,4 +13,13 @@
     background: none;
     color: white;
     border: none
+}
+.itembg{
+    background: #e9ecef;
+    margin-top: 6px;
+    padding: 36px;
+
+}
+.row{
+    margin: 0px;
 }
