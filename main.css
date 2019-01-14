@@ -1,7 +1,9 @@
 @import './style/navbar.css';
 
 body{
-    max-width: 100%;
+  font-family: 'Exo 2', sans-serif;
+  max-width: 100%;
+  background-color: #f8f9fa !important;
 }
 .sidebar{
     height: 100vh;
@@ -14,12 +16,18 @@ body{
     color: white;
     border: none
 }
-.itembg{
+.title-bar{
     background: #e9ecef;
-    margin-top: 6px;
+    margin: 16px 0px;
     padding: 36px;
-
+    border-radius: .25rem;
 }
 .row{
     margin: 0px;
+}
+.card{
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.1)
+}
+.card-footer{
+  border: none;
 }
