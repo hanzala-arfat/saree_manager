@@ -32,7 +32,7 @@
     padding: 1.5vh 2vw;
   }
 
-  .brand-name, a {
+  .brand-name, a, .sidebar {
     position: absolute;
     visibility: hidden;
   }
@@ -41,6 +41,7 @@
     flex-grow: 1;
     justify-content: space-around
   }
+  
   .link-name {
     display: block;
     font-size: 0.8rem

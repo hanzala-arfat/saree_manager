@@ -21,3 +21,15 @@ body{
 .row{
   margin: 0px;
 }
+/* 
+td > form {
+  max-width: 33%;
+  margin: 0px;
+} */
+
+input.form-control {
+  width: 20vw;
+  font-size: 0.7rem;
+}
+
+/* New Entry Form Css */
